@@ -1,5 +1,5 @@
 dwa012@gmail.com
 jeremystormo@gmail.com
 scotthedrick0@gmail.com
-jescoto@uno.edu
+hapkifighterj2@gmail.com
 neverhett@gmail.com
