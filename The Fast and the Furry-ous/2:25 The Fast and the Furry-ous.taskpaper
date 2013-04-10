@@ -1,0 +1,51 @@
+The Fast and the Furry-ous:
+	- Environments
+		- House
+		- Alley
+		- Vet Clinic
+	- Power-Ups
+		- poptart
+		- sunlight
+		- cat food
+	- Weapons
+		- laser pointer
+		- cal nip
+		- balls of yarn
+		- litter box
+		- fleas
+		- toy mouse
+		- dog
+		- hairball
+			- different types
+	- Different Cats
+		- Tabby
+		- Siamese
+		- Calico
+		- Alleycat
+		- Voltron (secret cat)
+	- Lap based (3-5 laps)
+	- Circuts (4 races per circuit)
+	- Possibility of multiple "starting" cats
+
+	- Controls
+		- Accelerate
+		- Decelerate
+			- Hand Brake
+		- Steering
+		- Fire Weapons
+
+	- Menu
+		- Start
+		- 1 Player, Vs, Time
+		- Selection
+			- Cat
+			- Environment
+
+	- Gameflow
+		- Start
+		- Choose Game Type
+		- Choose Environment
+		- Choose Cat
+		- Race
+		- End Race
+		- Retry/Next/New/Quit
