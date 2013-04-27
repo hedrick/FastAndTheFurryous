@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B042A72F-46DD-C0E7-C0ED-85EA47EAF886}</ProjectGuid>
+	<ProjectGuid>{EC7B7EE1-86F2-9A3B-B044-B750968E2A59}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,25 +46,6 @@
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\test.cs" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\venicemask0.53_script\readme.txt" />
-     <None Include="Assets\kitchen appliances set\oven\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\tip_aligning_objects\readme.txt" />
-     <None Include="Assets\living room\austere living room\BLENDSWAP_LICENSE.txt" />
-     <None Include="Assets\kitchen appliances set\refrigerator\readme.txt" />
-     <None Include="Assets\kitchen appliances set\microwave\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\sword\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\fantasy_pipe_organ\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\jaeger(musket)\readme.txt" />
-     <None Include="Assets\kitchen appliances set\outlet_switch\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\Community Contributions\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\mega_gun\readme.txt" />
-     <None Include="Assets\living room\project of living room\BLENDSWAP_LICENSE.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\xfighter\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\sharpie\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\March Contributions\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\chess_pawn\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\shelves\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\toaster\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

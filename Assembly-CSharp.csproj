@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{F9C3DCDD-7282-5A79-BD19-22B333E69BA9}</ProjectGuid>
+	<ProjectGuid>{7E8DB5BC-9047-11E7-8EA9-21627D79E8BC}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -44,33 +44,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\catSetup.cs" />
-     <Compile Include="Assets\stairScript.cs" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\venicemask0.53_script\readme.txt" />
-     <None Include="Assets\kitchen appliances set\oven\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\tip_aligning_objects\readme.txt" />
-     <None Include="Assets\living room\austere living room\BLENDSWAP_LICENSE.txt" />
-     <None Include="Assets\kitchen appliances set\refrigerator\readme.txt" />
-     <None Include="Assets\kitchen appliances set\microwave\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\sword\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\fantasy_pipe_organ\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\jaeger(musket)\readme.txt" />
-     <None Include="Assets\kitchen appliances set\outlet_switch\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\Community Contributions\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\mega_gun\readme.txt" />
-     <None Include="Assets\living room\project of living room\BLENDSWAP_LICENSE.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\xfighter\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\sharpie\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\March Contributions\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\chess_pawn\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\shelves\readme.txt" />
-     <None Include="Assets\misc (appliances objects etc)\February Contributions\toaster\readme.txt" />
+     <Compile Include="Assets\Scripts\catSetup.cs" />
+     <Compile Include="Assets\Scripts\stairScript.cs" />
+     <Compile Include="Assets\Scripts\tardisLight.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{B042A72F-46DD-C0E7-C0ED-85EA47EAF886}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{EC7B7EE1-86F2-9A3B-B044-B750968E2A59}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{E6268379-F46E-8DF1-3EF2-3AB57FA5BE31}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{E94657A4-5D19-D18C-C17E-F4F3A4E5EAA5}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
