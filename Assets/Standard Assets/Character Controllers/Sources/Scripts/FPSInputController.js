@@ -1,22 +1,32 @@
-private var motor : CharacterMotor;
-private var time : float;
-private var lapTime : float;
-public var turnSpeed :float;
-public var bestTime :int = 100;
-public var lapFanfare :AudioClip;
-// Use this for initialization
+private var motor: CharacterMotor;
+private var  startTime: float;
+private var  lapTime: float;
+public var turnSpeed: float;
+private var bestTime: float = 100;
+public var lapFanfare: AudioClip;
+public var bestFormatting: GUIStyle;
+public var timeFormatting: GUIStyle;
+
+public var testSize:float=520;
+
 function Awake () {
 	motor = GetComponent(CharacterMotor);
 }
 
 function OnGUI(){
-GUI.Box(Rect(10,10,110,100), "Lap Time:" + Mathf.FloorToInt(time)
-	+System.Environment.NewLine+"Best Time:"+bestTime);
+	var bestBoard = new GUIContent();
+	var timeBoard = new GUIContent();
+	bestBoard.text = "Best: " + (Mathf.Round(bestTime *100)/100);
+	timeBoard.text = "Lap: " + (Mathf.Round(lapTime *100)/100);
+	if(bestTime != 100)
+		GUI.Box(Rect(Screen.width-470,10,560,0), bestBoard,bestFormatting  );
+	GUI.Box(Rect(10,10,0,0), timeBoard,timeFormatting  );
+	
 }
-// Update is called once per frame
+
 function Update () {
 	
-	time = Time.time - lapTime;
+	lapTime = Time.time - startTime;
 	
 	
 	// Get the input vector from kayboard or analog stick
@@ -49,10 +59,10 @@ function Update () {
 function OnTriggerEnter(hit:Collider){
 	if(hit.gameObject.tag == "startLine")
 	{
-		var result:int = Mathf.FloorToInt(time);
-		if(bestTime>result)
-			bestTime = result;
-		lapTime = Time.time;
+		var finalTime = lapTime;
+		if(bestTime>finalTime)
+			bestTime = finalTime;
+		startTime = Time.time;
 		audio.PlayOneShot(lapFanfare);
 	}
 }
