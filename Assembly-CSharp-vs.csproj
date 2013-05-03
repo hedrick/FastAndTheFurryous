@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\Attic_topLight.cs" />
      <Compile Include="Assets\Scripts\catSetup.cs" />
      <Compile Include="Assets\Scripts\tardisLight.cs" />
+     <Compile Include="Assets\Scripts\waypointHit.cs" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

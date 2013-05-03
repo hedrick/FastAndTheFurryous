@@ -65,6 +65,11 @@ function OnTriggerEnter(hit:Collider){
 		startTime = Time.time;
 		audio.PlayOneShot(lapFanfare);
 	}
+	
+	if(hit.gameObject.tag == "waypoint")
+	{
+		Destroy(hit.gameObject);
+	}
 }
 // Require a character controller to be attached to the same game object
 @script RequireComponent (CharacterMotor)
