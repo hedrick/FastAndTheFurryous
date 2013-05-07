@@ -1,11 +1,16 @@
-var isQuit=false;
+public var isQuit=false;
+public var buttonSound:AudioClip;
 
-renderer.material.color=Color.orange;
+function Start(){
+	audio.clip = buttonSound;
+}
+
 function OnMouseOver(){
 	renderer.material.color=Color.red;
 }
 
 function OnMouseEnter(){
+	audio.Play();
 	renderer.material.color=Color.blue;
 }
 
